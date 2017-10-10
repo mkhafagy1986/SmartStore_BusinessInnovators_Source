@@ -431,7 +431,8 @@ namespace SmartStore.Web.Controllers
                     return RedirectToRoute("ShoppingCart");
             }
 
-            return RedirectToAction("BillingAddress");
+            //return RedirectToAction("BillingAddress");
+			return RedirectToAction("ShippingMethod");
         }
 
 
