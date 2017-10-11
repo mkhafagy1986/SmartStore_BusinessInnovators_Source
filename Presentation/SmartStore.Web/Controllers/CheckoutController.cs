@@ -431,8 +431,10 @@ namespace SmartStore.Web.Controllers
                     return RedirectToRoute("ShoppingCart");
             }
 
-            //return RedirectToAction("BillingAddress");
-			return RedirectToAction("ShippingMethod");
+            return RedirectToAction("BillingAddress");
+			
+			// added By M.Khafagy to cancel billing and shiping addresses selection by the customer.
+			//return RedirectToAction("ShippingMethod");
         }
 
 
